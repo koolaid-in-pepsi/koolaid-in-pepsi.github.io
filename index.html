@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koolaid Xio Client</title>
+	<link rel="icon" href="favicon.png">
+	<style>
+		body {
+			background-image: url(Background.png);
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+			font-family: 'Comic Sans MS', cursive, sans-serif;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.container img {
+			max-width: 100%;
+			max-height: 80vh;
+			margin-bottom: 20px;
+		}
+
+		.buttons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.buttons button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+			font-family: 'Comic Sans MS', cursive, sans-serif;
+		}
+
+		.buttons button:hover {
+			background-color: #45a049;
+		}
+
+		.discord {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+		.discord a {
+			background-color: #7289DA;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+			font-family: 'Comic Sans MS', cursive, sans-serif;
+			text-decoration: none;
+		}
+
+		.discord a:hover {
+			background-color: #677bc4;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="koolaidxio.png" alt="Download Image">
+		<div class="buttons">
+			<button onclick="location.href='koolaid_xio_client.zip'" type="button">Download Demo</button>
+			<button onclick="location.href='discord.html'" type="button">Download Client</button>
+		</div>
+		<div class="discord">
+			<a href="https://discord.gg/yWSywU8NTT">Discord</a>
+		</div>
+	</div>
+</body>
+</html>
